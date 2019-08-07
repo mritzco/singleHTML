@@ -1,5 +1,5 @@
 {
-  "name": "packsingle",
+  "name": "react-app-singleHTML",
   "version": "1.0.0",
   "description": "Packs a create-react-app dist into a single HTML page",
   "main": "index.js",
