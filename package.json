@@ -1,7 +1,7 @@
 {
-  "name": "react-app-singleHTML",
-  "version": "1.0.0",
-  "description": "Packs a create-react-app dist into a single HTML page",
+  "name": "react-app-singlehtml",
+  "version": "1.0.3",
+  "description": "Replaces JS/CSS references with contents of file, for example takes a create-react-app dist index.html and puts all into a single HTML page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,4 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/mritzco/singleHTML.git"
   },
+  "bin": {
+    "react-app-singlehtml": "./cli.js"
+  }
 }
