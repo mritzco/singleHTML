@@ -1,12 +1,10 @@
 ### react-app-singleHTML
 
-Originally created to pack a build version of create-react-app into a single HTML file with no external references.
+Packs a build version of create-react-app into a single self-contained HTML file with no external references. The output can be used in some restricted sytems. i.e. Sharepoint, NetSuite.
 
-It replaces the Javascript, CSS, with the file content of the file. It also removes manifest, favicon and maps.
+It replaces references to Javascript and CSS with their codes and removes manifest, favicon and maps.
 
-Uses streams and tries to keep minimal info in memory.
-
-The final page can be used in some restricted sytems. i.e. Sharepoint, NetSuite.
+This library uses streams and keeps minimal info in memory.
 
 
 ## Installation
