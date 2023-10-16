@@ -1,6 +1,6 @@
 {
   "name": "react-app-singlehtml",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Replaces JS/CSS references with contents of file, for example takes a create-react-app dist index.html and puts all into a single HTML page",
   "main": "index.js",
   "scripts": {
